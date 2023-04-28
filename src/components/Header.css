@@ -1,0 +1,35 @@
+/* a {
+    color: black !important;
+    text-decoration: none !important;
+
+    &:hover {
+      color: black !important;
+    }
+} */
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #1c4e78 !important; /* Change the color to your preferred hover color */
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #1c4e78; /* Change the color to your preferred underline color */
+    transform: scaleX(0);
+    transition: transform 0.3s;
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+  

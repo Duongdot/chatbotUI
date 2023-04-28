@@ -1,0 +1,55 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f9;
+  }
+  
+  .register-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-image {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .register-form-container {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .submit-button-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn-cold {
+    background-color: #1c7ebd;
+    border-color: #1c7ebd;
+  }
+  
+  .btn-cold:hover,
+  .btn-cold:focus,
+  .btn-cold:active {
+    background-color: #165f93;
+    border-color: #165f93;
+  }
+  
